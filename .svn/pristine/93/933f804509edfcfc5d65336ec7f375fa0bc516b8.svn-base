@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>MyCalc</title>
+    <title></title>
 	<meta charset="utf-8" />
 </head>
 <body>
@@ -35,8 +35,7 @@
                 <td><input type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
                 <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
                 <td><input type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
-                <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
-
+                <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '*'"></td>
             </tr>
         </table>
     </form>
